@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HTTP Api 测试" parallel="false">
+
+    <test name="user-service">
+        <parameter name="sql"
+                   value="SELECT * FROM http_cases;"/>
+        <classes>
+            <class name="com.sangyu.httptest.HttpTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>

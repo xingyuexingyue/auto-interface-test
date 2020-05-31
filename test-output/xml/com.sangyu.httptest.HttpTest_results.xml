@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="user-service"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.695">
+  <properties />
+  
+  
+            <testcase name="test" time="0.344" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="1.066" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.168" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.065" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.500" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.094" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.167" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.069" classname="com.sangyu.httptest.HttpTest" />
+                <testcase name="test" time="0.222" classname="com.sangyu.httptest.HttpTest" />
+      
+</testsuite>
